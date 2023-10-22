@@ -13,6 +13,12 @@ void print(int arr[], int n){
     }
 }
 
+int * address_check(){
+    int a[3] = {3,5,6};
+ //   cout << a[0] << endl;
+    return a;
+}
+
 int main(){
     freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\udemy_c++\\input.txt","r",stdin);
     freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\udemy_c++\\output.txt","w",stdout);
@@ -29,6 +35,36 @@ int main(){
     int b_arr[10];
     int n;
     cin >> n;
+
+    int * ptr = address_check();
+    //cout << ptr << ptr[0] <<endl; [Done] exited with code=3221225477 in 0.614 seconds
+
+    //Dynamic Allocation -> Heaps!
+    int * d_arr =  new int[n];
+
+    for(int i = 0; i< n ;i++){
+        cin >> d_arr[i];
+    }
+    for(int i = 0; i< n ;i++){ //foreach doesnt work on dynamic arrays
+        cout << d_arr[i] << endl;
+    }
+
+    delete [] d_arr;
+
+    cin >> n;
+    d_arr =  new int[n];
+
+    for(int i = 0; i< n ;i++){
+        cin >> d_arr[i];
+    }
+    for(int i = 0; i< n ;i++){ //foreach doesnt work on dynamic arrays
+        cout << d_arr[i] << endl;
+    }  
+    
+    /*
+    * New and Delete!
+    */
+
 
     return 0;  
 }
