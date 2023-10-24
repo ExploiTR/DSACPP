@@ -2,6 +2,22 @@
 // #include <gmp.h>
 using namespace std;
 
+int binSearchLoop(int * arr, int len, int key){
+    int s = 0;
+    int e = len-1;
+
+    while(s <= e){
+        int mid =  (s+e)/2;
+
+        if(arr[mid] == key)
+            return mid;
+        else if(arr[mid] > key){
+            
+        }else{
+
+        }
+    }
+}
 
 int main(){
     int x,y;
