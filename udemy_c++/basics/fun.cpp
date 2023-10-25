@@ -12,7 +12,7 @@ int main(){
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
 
-    printName("Pratim");
+    printName("Pratim Yes");
     printName();
 
     return 0;
