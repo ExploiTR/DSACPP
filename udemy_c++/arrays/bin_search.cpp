@@ -50,7 +50,6 @@ int main(){
     auto udx = upper_bound(arr,arr+11,4);
     cout << "UB for 11 : " << udx - arr << endl;
 
-
     auto ldx_3 = lower_bound(arr,arr+11,3);
     cout << "LB for 3 : " << ldx - arr << endl;
 
