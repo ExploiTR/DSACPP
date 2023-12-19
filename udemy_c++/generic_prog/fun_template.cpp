@@ -19,8 +19,6 @@ int main(){
     int max = maxx<int>(5,3);
     float maxF = maxx<float>(5.5,33.3);
 
-    
-
     cout << max << endl;
     cout << maxF;
 

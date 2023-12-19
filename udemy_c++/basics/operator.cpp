@@ -5,6 +5,10 @@ using namespace std;
 
 int x = 5; //global variable
 
+//Cascading Operator :
+// It is the practice of chaining multiple operations together in a single statement, 
+// typically achieved by returning *this from an overloaded operator.
+
 int main(){
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
