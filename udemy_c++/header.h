@@ -5,6 +5,15 @@
 #include <vector>
 #include <algorithm>
 #include <array>
+#include <deque>
+#include <queue>
+#include <set>
+#include <unordered_set>
+#include <map>
+#include <unordered_map>
+#include <forward_list>
+#include <list>
+#include <stack>
 
 using namespace std;
 

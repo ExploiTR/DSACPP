@@ -7,6 +7,10 @@ void pArr(int *arr){
 }
 
 
+void new_pArr(array<int,6> a){
+
+}
+
 int main(){
     iosetup();
 
@@ -23,6 +27,23 @@ int main(){
     pArr(arr);
 
     array<int,6> a = {1,1,1,1,1,1};
+    
+    //queue
+    deque<int> deq;
+    deq.push_back(10);
+    deq.push_back(20);
+
+    deq.push_front(10);
+    deq.push_front(30);
+
+    //list
+    list<int> l;
+    l.push_back(56); //double-sided iteration
+    l.push_front(56);
+
+    //forward-list
+    forward_list<int> fl;
+    fl.push_front(56);
 
     return 0;
 }

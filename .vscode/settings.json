@@ -64,6 +64,10 @@
         "xloctime": "cpp",
         "xmemory": "cpp",
         "xtr1common": "cpp",
-        "array": "cpp"
+        "array": "cpp",
+        "map": "cpp",
+        "stack": "cpp",
+        "queue": "cpp",
+        "xtree": "cpp"
     }
 }
