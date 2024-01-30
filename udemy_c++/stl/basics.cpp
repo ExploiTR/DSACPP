@@ -21,7 +21,7 @@ int main()
 
     for (auto iterator = vec.begin(); iterator != vec.end(); iterator++)
     {
-        cout << (*iterator) << " ";
+        cout << *iterator << " ";
     }
 
     cout << endl;
