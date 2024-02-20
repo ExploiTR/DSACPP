@@ -1,0 +1,39 @@
+# Ignore build artifacts
+build/
+bin/
+out/
+
+# Ignore any compiled object files
+*.o
+*.obj
+
+# Ignore executables
+*.exe
+*.out
+
+# Ignore Visual Studio Code specific files
+.vscode/
+
+# Ignore CMake build directory
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# Ignore generated documentation
+docs/
+
+# Ignore any user-specific files or directories
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Linux specific files
+*~
+
+# Ignore Windows thumbnails
+Thumbs.db
