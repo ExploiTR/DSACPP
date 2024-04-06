@@ -1,0 +1,39 @@
+Selection Sort :
+
+Pushes the smallest one to the left. 
+i = 0 - N
+j = i - N
+identify smallest in J and push to ith index (swap).
+
+111 6 -1 5 11 10 
+-1 6 111 5 11 10 
+-1 5 111 6 11 10 
+-1 5 6 111 11 10 
+-1 5 6 10 11 111 
+-1 5 6 10 11 111 
+
+Bubble Sort :
+
+Push the largest one to the right.
+i =  N-1 -> 1
+j =  1 - i-1
+make adjacent swaps until the largest one moves to ith pos.
+
+111 6 -1 5 11 10 
+6 -1 5 11 10 111 
+-1 5 6 10 11 111 
+-1 5 6 10 11 111 
+
+Insertion Sort :
+
+Push the smallest one to the left, but happens in chunks
+i = 1 - N-1
+j = i - 1
+make adjacent swaps from right to left to push the smallest one to left
+
+111 6 -1 5 11 10 
+6 111 -1 5 11 10 
+-1 6 111 5 11 10 
+-1 5 6 111 11 10 
+-1 5 6 11 111 10 
+-1 5 6 10 11 111 

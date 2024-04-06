@@ -4,6 +4,7 @@ void selection_sort(int size, int arr[])
 {
     for (int i = 0; i < size - 1; i++)
     {
+        dprint(arr, size);
         int smallest_index = i;
         for (int j = i; j < size; j++)
         {
