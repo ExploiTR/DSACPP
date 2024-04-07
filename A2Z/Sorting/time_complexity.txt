@@ -1,0 +1,22 @@
+Merge Sort :
+
+                [n]
+        [n/2]           [n/2]
+[n/4]                           [n/4]
+
+Halving in every step.-> log2(N) 
+
+Merge -> ~ O(N)
+
+Total -> N*log2N
+
+Space?
+
+~ O(N)
+
+
+Bubble Sort  & Selection & Intertion :
+
+Worst Case - > O(N2)
+
+Recursive Space -> O(N)

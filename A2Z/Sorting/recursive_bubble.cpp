@@ -1,27 +1,21 @@
 #include "../header.h"
 
-void bubble_sort(int size, int arr[])
+void recur_bubble_sort(int arr[], int max)
 {
-    for (int i = size - 1; i >= 1; i--)
+    if (max == 0)
+        return;
+
+    for (int i = 1; i <= max; i++)
     {
-        dprint(arr, size);
-        
-        int didSwap = 0; // <-- optimized N is best case. (sorted)
-
-        for (int j = 0; j < i; j++)
+        if (arr[i - 1] > arr[i])
         {
-            if (arr[j] > arr[j + 1])
-            {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-                didSwap++;
-            }
+            int t = arr[i - 1];
+            arr[i - 1] = arr[i];
+            arr[i] = t;
         }
-
-        if (didSwap == 0) // <-- optimized N is best case. (sorted)
-            break;        // <-- optimized N is best case. (sorted)
     }
+
+    recur_bubble_sort(arr, max - 1);
 }
 
 int main()
@@ -40,7 +34,7 @@ int main()
         numArray[i] = temp;
     }
 
-    bubble_sort(size, numArray);
+    recur_bubble_sort(numArray, size - 1);
 
     dprint(numArray, size);
 

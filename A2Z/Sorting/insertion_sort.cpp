@@ -4,19 +4,6 @@ void insertion_sort(int size, int arr[])
 {
     for (int i = 1; i < size; i++)
     {
-        dprint(arr, size);
-        // for (int j = i; j >= 1; j--)
-        // {
-        //     if (arr[j] < arr[j - 1])
-        //     {
-        //         int temp = arr[j];
-        //         arr[j] = arr[j - 1];
-        //         arr[j - 1] = temp;
-        //     }
-        // }
-
-        // optimized approach
-
         int j = i;
 
         while (j > 0 && arr[j] < arr[j - 1])
