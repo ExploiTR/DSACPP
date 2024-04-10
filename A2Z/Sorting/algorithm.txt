@@ -1,3 +1,4 @@
+########################################################################################################################
 Selection Sort :
 
 Pushes the smallest one to the left. 
@@ -11,7 +12,7 @@ identify smallest in J and push to ith index (swap).
 -1 5 6 111 11 10 
 -1 5 6 10 11 111 
 -1 5 6 10 11 111 
-
+########################################################################################################################
 Bubble Sort :
 
 Push the largest one in the left portion of array to the current (rightmost) index.
@@ -23,7 +24,7 @@ make adjacent swaps until the largest one moves to ith pos.
 6 -1 5 11 10 111 
 -1 5 6 10 11 111 
 -1 5 6 10 11 111 
-
+########################################################################################################################
 Insertion Sort :
 
 Push the smallest one to the left, but happens in chunks.
@@ -38,7 +39,7 @@ make adjacent swaps from right to left to push the smallest one to left
 -1 5 6 111 11 10 
 -1 5 6 11 111 10 
 -1 5 6 10 11 111 
-
+########################################################################################################################
 Merge Sort :
 
 Hypothetically (by index limits) split the array into half consecutively until it's a single valued array.
@@ -51,3 +52,4 @@ by keeping two pointers and swapping items in correct order then shifting pointe
 10 11 111 5 6 -1 
 10 11 111 -1 5 6 
 -1 5 6 10 11 111 
+########################################################################################################################
