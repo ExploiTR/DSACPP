@@ -22,7 +22,7 @@ void iosetup()
 {
     freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\A2Z\\input.txt", "r", stdin);
     freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\A2Z\\output.txt", "w", stdout);
-    freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\A2Z\\error.txt", "w", stderr);
+   // freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\A2Z\\error.txt", "w", stderr);
 
     cout << "";
 }

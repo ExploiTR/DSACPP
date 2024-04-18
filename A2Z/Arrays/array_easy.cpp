@@ -108,7 +108,10 @@ vector<int> rotateArray(vector<int> &arr, int n)
 // https://leetcode.com/problems/rotate-array/
 void rotate(vector<int> &nums, int k)
 {
-    
+    k = k % nums.size();
+    reverse(nums.begin(), nums.begin() + k);
+    reverse(nums.begin() + k, nums.end());
+    reverse(nums.begin(), nums.end());
 }
 
 int main()
@@ -133,7 +136,9 @@ int main()
     // dprint(getSecondOrderElements(size, numArray));
     // cout << removeDuplicates(numArray);
 
-    dprint(rotateArray(numArray, 6));
+    // dprint(rotateArray(numArray, 6));
+    rotate(numArray, 3);
+    dprint(numArray);
 
     return 0;
 }
