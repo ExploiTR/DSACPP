@@ -1,54 +1,66 @@
 Pattern 1
-* * * 
-* * * 
-* * * 
+* * * * 
+* * * * 
+* * * * 
+* * * * 
 
 Pattern 2
 * 
 * * 
 * * * 
+* * * * 
 
 Pattern 3
 1 
 1 2 
 1 2 3 
+1 2 3 4 
 
 Pattern 4
 1 
 2 2 
 3 3 3 
+4 4 4 4 
 
 Pattern 5
+* * * * 
 * * * 
 * * 
 * 
 
 Pattern 6
+1 2 3 4 
 1 2 3 
 1 2 
 1 
 
 Pattern 7
-  *  
- *** 
-*****
+   *   
+  ***  
+ ***** 
+*******
 
 Pattern 8
-*****
- *** 
-  *  
+*******
+ ***** 
+  ***  
+   *   
 
 Pattern 9
-  *  
- *** 
-*****
-*****
- *** 
-  *  
+   *   
+  ***  
+ ***** 
+*******
+*******
+ ***** 
+  ***  
+   *   
 
 Pattern 10
 *
 **
+***
+****
 ***
 **
 *
@@ -57,23 +69,28 @@ Pattern 11
 1
 01
 101
+0101
 
 Pattern 12
-1    1
-12  21
-123321
+1      1
+12    21
+123  321
+12344321
 
 Pattern 13
 1
 23
 456
+78910
 
 Pattern 14
 A
 AB
 ABC
+ABCD
 
 Pattern 15
+ABCD
 ABC
 AB
 A
@@ -82,14 +99,42 @@ Pattern 16
 A
 BB
 CCC
+DDDD
 
 Pattern 17
-  A
- ABA
-ABCBA
+   A
+  ABA
+ ABCBA
+ABCDCBA
 
 Pattern 18
-C
-BC
-ABC
+D
+CD
+BCD
+ABCD
+
+Pattern 19
+********
+***  ***
+**    **
+*      *
+*      *
+**    **
+***  ***
+********
+
+Pattern 20
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
+
+Pattern 21
+****
+*  *
+*  *
+****
 
