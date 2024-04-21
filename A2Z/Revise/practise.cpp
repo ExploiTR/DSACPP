@@ -87,9 +87,17 @@ void print_pattern6(int size)
 void print_pattern7(int size)
 {
     cout << "Pattern 7" << endl;
-    for (int i = 1; i <= size * 2; i++)
+    for (int i = 1; i <= size; i++)
     {
-        
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
+        for (int j = 1; j < i * 2; j++)
+            cout << "*";
+
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
         cout << endl;
     }
     cout << endl;
@@ -97,50 +105,235 @@ void print_pattern7(int size)
 
 void print_pattern8(int size)
 {
+    cout << "Pattern 8" << endl;
+    for (int i = size; i >= 1; i--)
+    {
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
+        for (int j = 1; j < i * 2; j++)
+            cout << "*";
+
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern9(int size)
 {
+    cout << "Pattern 9" << endl;
+    for (int i = 1; i <= size; i++)
+    {
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
+        for (int j = 1; j < i * 2; j++)
+            cout << "*";
+
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
+        cout << endl;
+    }
+    for (int i = size; i >= 1; i--)
+    {
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
+        for (int j = 1; j < i * 2; j++)
+            cout << "*";
+
+        for (int j = 0; j < (size - i); j++)
+            cout << " ";
+
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern10(int size)
 {
+    cout << "Pattern 10" << endl;
+    for (int i = 1; i <= size; i++)
+    {
+        for (int j = 1; j <= i; j++)
+            cout << "*";
+
+        cout << endl;
+    }
+    for (int i = size - 1; i >= 1; i--)
+    {
+        for (int j = 1; j <= i; j++)
+            cout << "*";
+
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern11(int size)
 {
+    cout << "Pattern 11" << endl;
+
+    for (int i = 1; i <= size; i++)
+    {
+        int tag = i % 2 == 0 ? 1 : 0;
+        for (int j = 1; j <= i; j++)
+            cout << (tag = !tag);
+
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern12(int size)
 {
+    cout << "Pattern 12" << endl;
+
+    for (int i = 1; i <= size; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << j;
+        }
+
+        for (int j = 1; j <= 2 * (size - i); j++)
+        {
+            cout << " ";
+        }
+
+        for (int j = i; j >= 1; j--)
+        {
+            cout << j;
+        }
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern13(int size)
 {
+    cout << "Pattern 13" << endl;
+
+    int counter = 1;
+    for (int i = 1; i <= size; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << counter++;
+        }
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern14(int size)
 {
+    cout << "Pattern 14" << endl;
+
+    for (int i = 1; i <= size; i++)
+    {
+        for (char j = 'A'; j < i + 'A'; j++)
+        {
+            cout << j;
+        }
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern15(int size)
 {
+    cout << "Pattern 15" << endl;
+
+    for (int i = size; i >= 1; i--)
+    {
+        for (char j = 'A'; j < i + 'A'; j++)
+        {
+            cout << j;
+        }
+        cout << endl;
+    }
+    cout << endl;
 }
 
 void print_pattern16(int size)
 {
+    cout << "Pattern 16" << endl;
+
+    for (int i = 1; i <= size; i++)
+    {
+        char t = 'A' + i - 1;
+        for (char j = 1; j <= i; j++)
+        {
+            cout << t;
+        }
+        cout << endl;
+    }
+
+    cout << endl;
 }
 
 void print_pattern17(int size)
 {
+    cout << "Pattern 17" << endl;
+
+    for (int i = 1; i <= size; i++)
+    {
+        for (int x = 1; x <= size - i; x++)
+        {
+            cout << " ";
+        }
+
+        for (char j = 'A'; j < i + 'A'; j++)
+        {
+            cout << j;
+        }
+
+        for (char j = i + 'A' - 2; j >= 'A'; j--)
+        {
+            cout << j;
+        }
+
+        cout << endl;
+    }
+
+    cout << endl;
 }
 
 void print_pattern18(int size)
 {
+    cout << "Pattern 18" << endl;
+
+    for (int i = 1; i <= size; i++)
+    {
+        for (char j = 'A' + (size - i); j < 'A' + size; j++)
+        {
+            cout << j;
+        }
+        cout << endl;
+    }
+
+    cout << endl;
 }
 
 void print_pattern19(int size)
 {
+    cout << "Pattern 19" << endl;
+
+    for (int i = 1; i <= size; i++)
+    {
+        for (char j = 'A' + (size - i); j < 'A' + size; j++)
+        {
+            cout << j;
+        }
+        cout << endl;
+    }
+
+    cout << endl;
 }
 
 void print_pattern20(int size)

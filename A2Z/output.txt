@@ -29,10 +29,67 @@ Pattern 6
 1 
 
 Pattern 7
-          **        
-        ****    
-      ******
-    ********
-  **********
-************
+  *  
+ *** 
+*****
+
+Pattern 8
+*****
+ *** 
+  *  
+
+Pattern 9
+  *  
+ *** 
+*****
+*****
+ *** 
+  *  
+
+Pattern 10
+*
+**
+***
+**
+*
+
+Pattern 11
+1
+01
+101
+
+Pattern 12
+1    1
+12  21
+123321
+
+Pattern 13
+1
+23
+456
+
+Pattern 14
+A
+AB
+ABC
+
+Pattern 15
+ABC
+AB
+A
+
+Pattern 16
+A
+BB
+CCC
+
+Pattern 17
+  A
+ ABA
+ABCBA
+
+Pattern 18
+C
+BC
+ABC
 
