@@ -104,8 +104,9 @@ void exp_priority_queue()
     */
 }
 
-//sorted and unique
-void test_set(){
+// sorted and unique
+void test_set()
+{
     set<int> st;
 
     st.insert(1);
@@ -116,20 +117,20 @@ void test_set(){
 
     auto it = st.find(66);
 
-    //erase is logarithmic
+    // erase is logarithmic
 
-    multiset<int> setx; //allows duplicates
+    multiset<int> setx; // allows duplicates
 
-    //erase function removes all elements by values if passsed value or removes single by address
-    //all functions here are LOG(N)
+    // erase function removes all elements by values if passsed value or removes single by address
+    // all functions here are LOG(N)
 
-    unordered_set<int> us; //unique : all functions are O(1) [1 in a billon times can be O(N)]
+    unordered_set<int> us; // unique : all functions are O(1) [1 in a billon times can be O(N)]
     // excepts lower_bound and upper_bound
 }
 
-//sorted and unique key
-void test_map(){}
-    //can use both emplace
+// sorted and unique key
+void test_map() {}
+// can use both emplace
 
 // Priority Queue
 int main()
@@ -151,7 +152,7 @@ int main()
 
     // vector_test();
 
-    //exp_priority_queue();
+    // exp_priority_queue();
 
     return 0;
 }

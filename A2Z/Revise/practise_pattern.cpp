@@ -422,7 +422,17 @@ void print_pattern21(int size)
 
 void print_pattern22(int size)
 {
-    
+    cout << "Pattern 22" << endl;
+
+    for (int i = 0; i < 2 * size - 1; i++)
+    {
+        for (int j = 0; j < 2 * size - 1; j++)
+        {
+            cout << size - min(min(i, 2 * size - i - 2), min(j, 2 * size - j - 2));
+        }
+        cout << endl;
+    }
+    cout << endl;
 }
 
 int main()
@@ -431,17 +441,6 @@ int main()
 
     int size;
     cin >> size;
-
-    // int *numArray = new int[size]();
-
-    // int temp;
-    // for (int i = 0; i < size; i++)
-    // {
-    //     cin >> temp;
-    //     numArray[i] = temp;
-    // }
-
-    // dprint(numArray, size);
 
     print_pattern1(size);
     print_pattern2(size);
