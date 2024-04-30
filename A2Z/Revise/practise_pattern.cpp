@@ -369,7 +369,7 @@ void print_pattern20(int size)
     {
         for (int j = 1; j <= i; j++)
         {
-            cout << "*";
+            cout << "😋";
         }
         for (int j = 0; j < 2 * (size - i); j++)
         {
@@ -377,7 +377,7 @@ void print_pattern20(int size)
         }
         for (int j = 1; j <= i; j++)
         {
-            cout << "*";
+            cout << "😋";
         }
         cout << endl;
     }
@@ -386,7 +386,7 @@ void print_pattern20(int size)
     {
         for (int j = 1; j <= i; j++)
         {
-            cout << "*";
+            cout << "🧐";
         }
         for (int j = 0; j < 2 * (size - i); j++)
         {
@@ -394,7 +394,7 @@ void print_pattern20(int size)
         }
         for (int j = 1; j <= i; j++)
         {
-            cout << "*";
+            cout << "🧐";
         }
         cout << endl;
     }
