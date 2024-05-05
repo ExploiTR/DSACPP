@@ -68,6 +68,11 @@
         "map": "cpp",
         "stack": "cpp",
         "queue": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "random": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "string_view": "cpp",
+        "functional": "cpp"
     }
 }
