@@ -85,7 +85,34 @@ void insertion_sort(int arr[], int size)
                 break;
 }
 
+// this returns index
+int place_num_get_pivot(int arr[], int start, int end)
+{
+    int pivot = arr[start];
+    int l = start;
+    int e = end;
+    while (l < e)
+    {
+        while (arr[l] <= pivot && l <= end - 1)
+            l++;
+        while (arr[e] > pivot && e >= start + 1)
+            e--;
+        if (l < e)
+            swap(arr[l], arr[e]);
+    }
+    swap(arr[start], arr[e]);
+    return e;
+}
 
+void quick_sort(int arr[], int start, int end)
+{
+    if (start < end)
+    {
+        int pivot = place_num_get_pivot(arr, start, end);
+        quick_sort(arr, start, pivot - 1);
+        quick_sort(arr, pivot + 1, end);
+    }
+}
 
 int main()
 {
@@ -106,8 +133,8 @@ int main()
     dprint(numArray, size);
     // merge_sort(numArray, 0, size - 1);
     // selection_sort(numArray, size);
-    // bubble_sort(numArray, size);
-    insertion_sort(numArray, size);
+    // insertion_sort(numArray, size);
+    quick_sort(numArray, 0, size - 1);
     dprint(numArray, size);
 
     delete numArray;

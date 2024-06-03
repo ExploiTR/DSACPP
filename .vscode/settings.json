@@ -73,6 +73,9 @@
         "*.tcc": "cpp",
         "deque": "cpp",
         "string_view": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "ranges": "cpp",
+        "set": "cpp",
+        "span": "cpp"
     }
 }
