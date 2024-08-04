@@ -136,7 +136,7 @@ int main()
     // dprint(getSecondOrderElements(size, numArray));
     // cout << removeDuplicates(numArray);
 
-    // dprint(rotateArray(numArray, 6));
+    dprint(rotateArray(numArray, 6));
     rotate(numArray, 3);
     dprint(numArray);
 
