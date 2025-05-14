@@ -1,0 +1,3 @@
+// filepath: c:\Users\Pratim\Documents\GitHub\DSACPP-1\DSA_Topics\CommonSetup\input.txt
+8
+11 5 3 8 5 3 4 1

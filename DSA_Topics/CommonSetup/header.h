@@ -1,3 +1,4 @@
+// filepath: c:\Users\Pratim\Documents\GitHub\DSACPP-1\DSA_Topics\CommonSetup\header.h
 #pragma once
 
 #include <iostream>
@@ -20,9 +21,12 @@ using namespace std;
 
 void iosetup()
 {
-    freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\A2Z\\input.txt", "r", stdin);
-    freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\A2Z\\output.txt", "w", stdout);
-   // freopen("C:\\Users\\prati\\OneDrive\\Documents\\GitHub\\DSA_Udemy\\A2Z\\error.txt", "w", stderr);
+    // Ensure these paths are relative to where the executable is run,
+    // or adjust them if input/output files are elsewhere.
+    // Assuming they are in DSA_Topics/CommonSetup relative to project root.
+    freopen("DSA_Topics\\CommonSetup\\input.txt", "r", stdin);
+    freopen("DSA_Topics\\CommonSetup\\output.txt", "w", stdout);
+    freopen("DSA_Topics\\CommonSetup\\error.txt", "w", stderr);
 
     cout << "";
 }
